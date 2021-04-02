@@ -42,7 +42,7 @@
                     //Execute statement
                     $stmt->execute();
 
-                    $row = $stmt->fetch(PDP::FETCH_ASSOC);
+                    $row = $stmt->fetch(PDO::FETCH_ASSOC);
 
                     $this->id = $row['id'];
                     $this->name = $row['name'];
