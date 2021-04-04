@@ -1,0 +1,15 @@
+{
+    "name": "ratilla/php-rest-api",
+    "description": "api rest",
+    "type": "project",
+    "authors": [
+        {
+            "name": "AraceliLobo",
+            "email": "a.lobocasas@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "zircote/swagger-php": "^3.1"
+    }
+}
