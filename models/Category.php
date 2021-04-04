@@ -61,7 +61,7 @@
             $this->name = htmlspecialchars(strip_tags($this->name));
 
             //Bind parameters
-            $stmt->bindParam('name', $this->name);
+            $stmt->bindParam(':name', $this->name);
 
             //Execute statement
             if($stmt->execute()){
@@ -85,8 +85,8 @@
         $this->id = htmlspecialchars(strip_tags($this->id));
 
         //Bind parameters
-        $stmt->bindParam('name', $this->name);
-        $stmt->bindParam('id', $this->id);
+        $stmt->bindParam(':name', $this->name);
+        $stmt->bindParam(':id', $this->id);
 
         //Execute statement
         if($stmt->execute()){
@@ -110,7 +110,7 @@
         $this->id = htmlspecialchars(strip_tags($this->id));
 
         //Bind parameters
-        $stmt->bindParam('id', $this->id);
+        $stmt->bindParam(':id', $this->id);
 
         //Execute statement
         if($stmt->execute()){
