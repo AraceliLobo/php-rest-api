@@ -9,7 +9,7 @@
     private $password = '';
     private $conn;
 
-    //DB Conection
+    //DB Connection
     public function connect(){
         $this->conn = null;
         try {
